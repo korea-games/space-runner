@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>space-runner</title>
+<style>
+html,body{margin:0;height:100%;background:#0b0820;overflow:hidden;touch-action:none;user-select:none;-webkit-user-select:none}
+canvas{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);image-rendering:pixelated;image-rendering:crisp-edges}
+#touch{position:absolute;inset:0;display:none;pointer-events:none}
+.tb{position:absolute;bottom:22px;width:72px;height:72px;border:3px solid #ffffff55;background:#ffffff14;color:#fff9;font:bold 26px monospace;display:flex;align-items:center;justify-content:center;pointer-events:auto;border-radius:6px}
+#tl{left:20px}#tr{left:104px}#tj{right:20px;bottom:100px}#td{right:20px}
+</style></head><body>
+<canvas id="c"></canvas>
+<div id="touch"><div class="tb" id="tl">◀</div><div class="tb" id="tr">▶</div><div class="tb" id="tj">▲</div><div class="tb" id="td">▼</div></div>
+<script src="js/game.js?v=17"></script>
+</body></html>
